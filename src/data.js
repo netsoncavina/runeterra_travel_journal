@@ -25,7 +25,7 @@ export default [
     location: "Valoran (North)",
     type: "Tribal Matriarchy",
     description:
-      "The Freljord is a harsh and unforgiving land. Proud and fiercely independent, its people are born warriors, with a strong raiding culture.",
+      "The Freljord is a harsh and unforgiving land. Proud and fiercely independent, its people are born warriors, with a strong raiding culture. While there are many individual tribes within the Freljord, the battle lines are being drawn in a three-way civil war that will determine the future of them all.",
     iconUrl: "icons/Freljord_Crest_icon.png",
     imageUrl: "images/Freljord.jpg",
   },

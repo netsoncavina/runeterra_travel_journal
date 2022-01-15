@@ -2,10 +2,10 @@ import logo from "./logo.svg";
 import "./App.css";
 import Navbar from "./components/Navbar";
 import Card from "./components/Card";
-import data from "./data";
+import info from "./data";
 
 function App() {
-  const cards = data.map((item) => {
+  const cards = info.map((item) => {
     return <Card key={item.id} {...item} />;
   });
   return (
