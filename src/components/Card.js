@@ -1,4 +1,14 @@
+import Champion from "./Champion";
+import info from "../data";
+
 export default function Card(props) {
+  let championsList = props.champions;
+  let champions = props.champions
+    ? Object.keys(championsList).map((key) => {
+        return <Champion key={key} {...championsList[key]} />;
+      })
+    : null;
+
   return (
     <div>
       <div className="card">
@@ -17,6 +27,7 @@ export default function Card(props) {
               </p>
             )}
             <p>{props.description}</p>
+            <section className="card--champions">{champions}</section>
           </div>
         </div>
       </div>

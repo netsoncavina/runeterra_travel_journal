@@ -71,6 +71,16 @@ nav {
   font-weight: bold;
 }
 
+.card--champions {
+}
+
+.card--champion--icon {
+  border-radius: 50%;
+  padding-right: 5px;
+  width: 50px;
+  /* height: 30px; */
+}
+
 p {
   font-size: 10.24px;
   line-height: 150%;
