@@ -1,5 +1,8 @@
 import Champion from "./Champion";
 import info from "../data";
+import React from "react";
+import Tippy from "@tippyjs/react";
+import "tippy.js/dist/tippy.css"; // optional
 
 export default function Card(props) {
   let championsList = props.champions;
@@ -27,6 +30,16 @@ export default function Card(props) {
               </p>
             )}
             <p>{props.description}</p>
+            <Tippy
+              // className="tippy"
+              hideOnClick={false}
+              interactive={true}
+              content={
+                <section className="card--champions">{champions}</section>
+              }
+            >
+              <h6 className="card--champions--h5">Champions List</h6>
+            </Tippy>
             <section className="card--champions">{champions}</section>
           </div>
         </div>
