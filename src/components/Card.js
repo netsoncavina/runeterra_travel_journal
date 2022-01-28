@@ -30,8 +30,7 @@ export default function Card(props) {
               </p>
             )}
             <p>{props.description}</p>
-            <Tippy
-              // className="tippy"
+            {/* <Tippy
               hideOnClick={false}
               interactive={true}
               content={
@@ -39,7 +38,7 @@ export default function Card(props) {
               }
             >
               <h6 className="card--champions--h5">Champions List</h6>
-            </Tippy>
+            </Tippy> */}
             <section className="card--champions">{champions}</section>
           </div>
         </div>

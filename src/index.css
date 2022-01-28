@@ -33,6 +33,7 @@ nav {
 
 .card {
   display: flex;
+  /* margin-top: 40px; */
   padding-top: 20px;
   padding-left: 39px;
 }
@@ -40,6 +41,7 @@ nav {
 .card--image {
   width: 126px;
   /* height: 168px; */
+  height: 280px;
 
   border-radius: 5px;
 }
@@ -73,6 +75,11 @@ nav {
 
 .card--champions {
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* width: fit-content; */
+  /* background-color: #333; */
+  height: 80px;
 }
 
 .card--champion--list {
@@ -87,18 +94,12 @@ nav {
   border-radius: 50%;
   padding-right: 7px;
   width: 50px;
-  /* height: 30px; */
+  margin: auto;
+  height: 40px;
 }
 
 .card--champions--h5 {
   width: fit-content;
-}
-
-.tippy {
-  width: fit-content;
-  max-width: fit-content;
-  background: #333;
-  color: white;
 }
 
 p {
