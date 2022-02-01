@@ -41,7 +41,7 @@ nav {
 .card--image {
   width: 126px;
   /* height: 168px; */
-  height: 280px;
+  height: 300px;
 
   border-radius: 5px;
 }
@@ -103,7 +103,7 @@ nav {
 }
 
 p {
-  font-size: 10.24px;
+  font-size: 16px;
   line-height: 150%;
   max-width: 90%;
 }
