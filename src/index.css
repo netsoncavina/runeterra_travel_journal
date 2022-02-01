@@ -90,6 +90,10 @@ nav {
   margin: 0;
 }
 
+.card--champion--splash {
+  width: 100%;
+}
+
 .card--champion--icon {
   border-radius: 50%;
   padding-right: 7px;

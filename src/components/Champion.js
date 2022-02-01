@@ -3,13 +3,18 @@ import "tippy.js/dist/tippy.css"; // optional
 
 export default function Champion(props) {
   const srcUrl = `images/champion/${props.name}.png`;
+  const splashUrl = `images/splash/${props.name}_0.jpg`;
   return (
     <div className="card--champion--list">
       <Tippy
+        interactive={true}
         content={
-          <a>
-            {props.name} : {props.nick}
-          </a>
+          <>
+            <img className="card--champion--splash" src={splashUrl} />
+            <p>
+              {props.name} : {props.nick}
+            </p>
+          </>
         }
       >
         <img className="card--champion--icon" src={srcUrl} />
