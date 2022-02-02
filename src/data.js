@@ -9,8 +9,105 @@ export default [
     iconUrl: "icons/Noxus_Crest_icon.png",
     imageUrl: "images/Noxus_The_Immortal_Bastion_01.jpg",
     champions: {
-      0: { name: "Draven", nick: "The Glorious Executioner" },
-      1: { name: "Darius", nick: "The Hand of Noxus" },
+      0: {
+        name: "Draven",
+        skins: {
+          0: {
+            splashUrl: "images/splash/Draven_0.jpg",
+            description: "Draven The glorious executioner",
+          },
+          1: {
+            splashUrl: "images/splash/Draven_1.jpg",
+            description: "Soul Reaver Draven",
+          },
+          2: {
+            splashUrl: "images/splash/Draven_2.jpg",
+            description: "Gladiator Draven",
+          },
+          3: {
+            splashUrl: "images/splash/Draven_3.jpg",
+            description: "Primetime Draven",
+          },
+          4: {
+            splashUrl: "images/splash/Draven_4.jpg",
+            description: "Pool Party Draven",
+          },
+          5: {
+            splashUrl: "images/splash/Draven_5.jpg",
+            description: "Beast Hunter Draven",
+          },
+          6: {
+            splashUrl: "images/splash/Draven_6.jpg",
+            description: "Draven Draven",
+          },
+          7: {
+            splashUrl: "images/splash/Draven_7.jpg",
+            description: "Santa Draven",
+          },
+          8: {
+            splashUrl: "images/splash/Draven_8.jpg",
+            description: "Mecha Kingdoms Draven",
+          },
+          9: {
+            splashUrl: "images/splash/Draven_9.jpg",
+            description: "Ruined Draven",
+          },
+          10: {
+            splashUrl: "images/splash/Draven_10.jpg",
+            description: "Debonair Draven",
+          },
+        },
+      },
+      1: {
+        name: "Darius",
+        skins: {
+          0: {
+            splashUrl: "images/splash/Darius_0.jpg",
+            description: "Darius The Hand of Noxus",
+          },
+          1: {
+            splashUrl: "images/splash/Darius_1.jpg",
+            description: "Lord Darius",
+          },
+          2: {
+            splashUrl: "images/splash/Darius_2.jpg",
+            description: "Bioforge Darius",
+          },
+          3: {
+            splashUrl: "images/splash/Darius_3.jpg",
+            description: "Woad King Darius",
+          },
+          4: {
+            splashUrl: "images/splash/Darius_4.jpg",
+            description: "Dunkmaster Darius",
+          },
+          5: {
+            splashUrl: "images/splash/Darius_8.jpg",
+            description: "Academy Darius",
+          },
+          6: {
+            splashUrl: "images/splash/Darius_14.jpg",
+            description: "Dreadnova Darius",
+          },
+          7: {
+            splashUrl: "images/splash/Darius_15.jpg",
+            description: "God King Darius",
+          },
+          8: {
+            splashUrl: "images/splash/Darius_16.jpg",
+            description: "High Noon Darius",
+          },
+          9: {
+            splashUrl: "images/splash/Darius_24.jpg",
+            description: "Lunar Beast Darius",
+          },
+          10: {
+            splashUrl: "images/splash/Darius_33.jpg",
+            description: "Crime City Nightmare Darius",
+          },
+        },
+      },
+
       2: { name: "Cassiopeia", nick: "The Serpent's Embrace" },
       3: { name: "Katarina", nick: "The Sinister Blade" },
       4: { name: "Kled", nick: "The Cantankerous Cavalier" },
