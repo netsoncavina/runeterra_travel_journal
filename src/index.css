@@ -46,6 +46,10 @@ nav {
   border-radius: 5px;
 }
 
+.card--wallpaper-carousel {
+  padding: 10px;
+}
+
 .card--info {
   padding-left: 10px;
 }
