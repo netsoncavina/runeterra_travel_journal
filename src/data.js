@@ -121,8 +121,44 @@ export default [
           },
         },
       },
-
-      2: { name: "Cassiopeia", nick: "The Serpent's Embrace" },
+      2: {
+        name: "Cassiopeia",
+        nick: "The Serpent's Embrace",
+        skins: {
+          0: {
+            splashUrl: "images/splash/Cassiopeia_0.jpg",
+            description: "Cassiopeia The Serpent's Embrace",
+          },
+          1: {
+            splashUrl: "images/splash/Cassiopeia_1.jpg",
+            description: "Desperada Cassiopeia",
+          },
+          2: {
+            splashUrl: "images/splash/Cassiopeia_2.jpg",
+            description: "Siren Cassiopeia",
+          },
+          3: {
+            splashUrl: "images/splash/Cassiopeia_3.jpg",
+            description: "Mythic Cassiopeia",
+          },
+          4: {
+            splashUrl: "images/splash/Cassiopeia_4.jpg",
+            description: "Jade Fang Cassiopeia",
+          },
+          5: {
+            splashUrl: "images/splash/Cassiopeia_8.jpg",
+            description: "Eternum Cassiopeia",
+          },
+          6: {
+            splashUrl: "images/splash/Cassiopeia_9.jpg",
+            description: "Spirit Blossom Cassiopeia",
+          },
+          7: {
+            splashUrl: "images/splash/Cassiopeia_18.jpg",
+            description: "Coven Cassiopeia",
+          },
+        },
+      },
       3: { name: "Katarina", nick: "The Sinister Blade" },
       4: { name: "Kled", nick: "The Cantankerous Cavalier" },
       5: { name: "Leblanc", nick: "The Deceiver" },
