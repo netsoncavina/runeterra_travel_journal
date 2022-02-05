@@ -159,8 +159,90 @@ export default [
           },
         },
       },
-      3: { name: "Katarina", nick: "The Sinister Blade" },
-      4: { name: "Kled", nick: "The Cantankerous Cavalier" },
+      3: {
+        name: "Katarina",
+        nick: "The Sinister Blade",
+        skins: {
+          0: {
+            splashUrl: "images/splash/Katarina_0.jpg",
+            description: "Katarina The Sinister Blade",
+          },
+          1: {
+            splashUrl: "images/splash/Katarina_1.jpg",
+            description: "Mercenary Katarina",
+          },
+          2: {
+            splashUrl: "images/splash/Katarina_2.jpg",
+            description: "Red Card Katarina",
+          },
+          3: {
+            splashUrl: "images/splash/Katarina_3.jpg",
+            description: "Bilgewater Katarina",
+          },
+          4: {
+            splashUrl: "images/splash/Katarina_4.jpg",
+            description: "Kitty Cat Katarina",
+          },
+          5: {
+            splashUrl: "images/splash/Katarina_5.jpg",
+            description: "High Command Katarina",
+          },
+          6: {
+            splashUrl: "images/splash/Katarina_6.jpg",
+            description: "Sandstorm Katarina",
+          },
+          7: {
+            splashUrl: "images/splash/Katarina_7.jpg",
+            description: "Slay Belle Katarina",
+          },
+          8: {
+            splashUrl: "images/splash/Katarina_8.jpg",
+            description: "Warring Kingdoms Katarina",
+          },
+          9: {
+            splashUrl: "images/splash/Katarina_9.jpg",
+            description: "PROJECT: Katarina",
+          },
+          10: {
+            splashUrl: "images/splash/Katarina_10.jpg",
+            description: "Death Sworn Katarina",
+          },
+          11: {
+            splashUrl: "images/splash/Katarina_12.jpg",
+            description: "Battle Academia Katarina",
+          },
+          12: {
+            splashUrl: "images/splash/Katarina_21.jpg",
+            description: "Blood Moon Katarina",
+          },
+          13: {
+            splashUrl: "images/splash/Katarina_29.jpg",
+            description: "Battle Queen Katarina",
+          },
+        },
+      },
+      4: {
+        name: "Kled",
+        nick: "The Cantankerous Cavalier",
+        skins: {
+          0: {
+            splashUrl: "images/splash/Kled_0.jpg",
+            description: "Kled The Cantankerous Cavalier",
+          },
+          1: {
+            splashUrl: "images/splash/Kled_1.jpg",
+            description: "Sir Kled",
+          },
+          2: {
+            splashUrl: "images/splash/Kled_2.jpg",
+            description: "Count Kledula",
+          },
+          3: {
+            splashUrl: "images/splash/Kled_9.jpg",
+            description: "Marauder Kled",
+          },
+        },
+      },
       5: { name: "Leblanc", nick: "The Deceiver" },
       6: { name: "Rell", nick: "The Iron Maiden" },
       7: { name: "Riven", nick: "The Exile" },

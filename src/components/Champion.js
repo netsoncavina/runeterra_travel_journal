@@ -37,7 +37,7 @@ export default function Champion(props) {
               showStatus={false}
               showIndicators={false}
               showThumbs={false}
-              interval={1000}
+              interval={4000}
             >
               {championSkins}
             </Carousel>
