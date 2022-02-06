@@ -7,7 +7,7 @@ export default [
     description:
       "Noxus is a powerful empire with a fearsome reputation. To those beyond its borders, Noxus is brutal, expansionist, and threatening, yet those who look beyond its warlike exterior see an unusually inclusive society, where the strengths and talents of its people are respected and cultivated.",
     iconUrl: "icons/Noxus_Crest_icon.png",
-    imageUrl: "images/Noxus_The_Immortal_Bastion_01.jpg",
+    imageUrl: "images/Noxus.jpg",
     wallpapers: {
       0: {
         title: "Noxian Army",
