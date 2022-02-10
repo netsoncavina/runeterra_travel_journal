@@ -8,7 +8,7 @@
 O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
 
 - [x] Exibir simbolo de cada região
-- [ ] Exibir campeões da região
+- [x] Exibir campeões da região
 - [ ] Exibir mais imagens da região
 - [ ] Opção de escolher o idioma do texto
 
@@ -16,7 +16,7 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 
 Antes de começar, verifique se você atendeu aos seguintes requisitos:
 * Você instalou a versão mais recente do `node.js`
-* Você possui um programa para inicializar o react app (VS Code por exemplo).
+* Você possui um meio para inicializar o react app.
 
 
 ## 🚀 Instalando Runeterra Travel Journal
