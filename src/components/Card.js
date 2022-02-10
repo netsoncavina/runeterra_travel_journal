@@ -8,7 +8,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
 
 export default function Card(props) {
-  const [description, setDescription] = useState(props.description[2]);
+  // const [description, setDescription] = useState(props.description[2]);
   let championsList = props.champions;
   let champions = props.champions
     ? Object.keys(championsList).map((key) => {
@@ -26,16 +26,6 @@ export default function Card(props) {
         );
       })
     : null;
-
-  function changeLanguage() {
-    if (description == props.description[0]) {
-      setDescription(props.description[1]);
-    } else if (description == props.description[1]) {
-      setDescription(props.description[2]);
-    } else if (description == props.description[2]) {
-      setDescription(props.description[0]);
-    }
-  }
 
   return (
     <div>
@@ -74,13 +64,13 @@ export default function Card(props) {
                 <span className="card--type">{props.type}</span>{" "}
               </p>
             )}
-            <p>{description}</p>
+            <p>{props.description[props.language]}</p>
 
             <section className="card--champions">{champions}</section>
-            <button className="card--button" onClick={changeLanguage}>
+            {/* <button className="card--button" onClick={changeLanguage}>
               {" "}
               button{" "}
-            </button>
+            </button> */}
           </div>
         </div>
       </div>
