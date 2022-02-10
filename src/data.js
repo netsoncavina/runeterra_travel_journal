@@ -262,6 +262,20 @@ export default [
       "A strong, lawful kingdom with a prestigious military history, Demacia's people have always valued the ideals of justice, honor, and duty most highly, and are fiercely proud of their cultural heritage.",
     iconUrl: "icons/Demacia_Crest_icon.png",
     imageUrl: "images/Demacia.jpg",
+    wallpapers: {
+      0: {
+        title: "Demacian Army",
+        url: "regions/Demacia_00.jpg",
+      },
+      1: {
+        title: "The Grand Plaza of Demacia ",
+        url: "regions/Demacia_01.jpg",
+      },
+      2: {
+        title: "Temple of the lightbringers",
+        url: "regions/Demacia_02.jpg",
+      },
+    },
     champions: {
       0: { name: "Fiora" },
       1: { name: "Galio" },
@@ -289,6 +303,20 @@ export default [
       "The Freljord is a harsh and unforgiving land. Proud and fiercely independent, its people are born warriors, with a strong raiding culture. While there are many individual tribes within the Freljord, the battle lines are being drawn in a three-way civil war that will determine the future of them all.",
     iconUrl: "icons/Freljord_Crest_icon.png",
     imageUrl: "images/Freljord.jpg",
+    wallpapers: {
+      0: {
+        title: "The Pilgrim Site of Rakelstake",
+        url: "regions/Freljord_00.jpg",
+      },
+      1: {
+        title: "Vaults of the Iceborn Beneath Frosthorn Peak",
+        url: "regions/Freljord_01.jpg",
+      },
+      2: {
+        title: "Harbor of Glaseport",
+        url: "regions/Freljord_02.jpg",
+      },
+    },
     champions: {
       0: { name: "Anivia" },
       1: { name: "Ashe" },
@@ -315,6 +343,20 @@ export default [
       "Zaun, also known as the City of Iron and Glass, is a large, undercity district, lying in the deep canyons and valleys threading Piltover. What light reaches below is filtered through fumes leaking from the tangles of corroded pipework and reflected from the stained glass of its industrial architecture.",
     iconUrl: "icons/Zaun_Crest_icon.png",
     imageUrl: "images/Zaun.jpg",
+    wallpapers: {
+      0: {
+        title: "Boundary Markets",
+        url: "regions/Zaun_00.jpg",
+      },
+      1: {
+        title: "Backstreet Hextech Deals",
+        url: "regions/Zaun_01.jpg",
+      },
+      2: {
+        title: "Zaun's Depths",
+        url: "regions/Zaun_02.jpg",
+      },
+    },
     champions: {
       0: { name: "Blitzcrank" },
       1: { name: "DrMundo" },
@@ -340,6 +382,20 @@ export default [
       "Piltover, also known as the City of Progress, is a thriving, progressive city whose power and influence is on the rise. It is Valoran's cultural center, where art, craftsmanship, trade and innovation walk hand in hand. Its power comes not through military might, but the engines of commerce and forward thinking. ",
     iconUrl: "icons/Piltover_Crest_icon.png",
     imageUrl: "images/Piltover.jpg",
+    wallpapers: {
+      0: {
+        title: "Zindelo's Incognium ",
+        url: "regions/Piltover_00.jpg",
+      },
+      1: {
+        title: "Workshops",
+        url: "regions/Piltover_01.jpg",
+      },
+      2: {
+        title: "Bluewind Court",
+        url: "regions/Piltover_02.jpg",
+      },
+    },
     champions: {
       0: { name: "Caitlyn" },
       1: { name: "Camille" },
@@ -360,6 +416,20 @@ export default [
       "Like any place of myth, Mount Targon is a beacon to dreamers, madmen and questors of adventure. A mountainous and sparsely inhabited region to the west of Shurima, Targon boasts the tallest peak in Runeterra. Located far from civilization, Mount Targon is all but impossible to reach, save by the most determined pilgrims, chasing some soul-deep yearning to reach its summit. ",
     iconUrl: "icons/Mount_Targon_Crest_icon.png",
     imageUrl: "images/Targon.jpg",
+    wallpapers: {
+      0: {
+        title: "Carved into the Mountain",
+        url: "regions/Targon_00.jpg",
+      },
+      1: {
+        title: "Skies around mount Targon",
+        url: "regions/Targon_01.jpg",
+      },
+      2: {
+        title: "Mount Peak",
+        url: "regions/Targon_02.jpg",
+      },
+    },
     champions: {
       0: { name: "Aphelios" },
       1: { name: "Diana" },
@@ -379,6 +449,20 @@ export default [
       "The empire of Shurima was once a thriving civilization that spanned a vast desert. After an era of growth and prosperity, the fall fall of its gleaming capital left the empire in ruins. Over millennia, tales of Shurima's glorious city became myth and religion among the descendants of the scattered survivors.",
     iconUrl: "icons/Shurima_Crest_icon.png",
     imageUrl: "images/Shurima.jpg",
+    wallpapers: {
+      0: {
+        title: "The Valley of the Song",
+        url: "regions/Shurima_00.jpg",
+      },
+      1: {
+        title: "Shurima's Ruins",
+        url: "regions/Shurima_01.jpg",
+      },
+      2: {
+        title: "Zoantha Cascade",
+        url: "regions/Shurima_02.jpg",
+      },
+    },
     champions: {
       0: { name: "Akshan" },
       1: { name: "Amumu" },
