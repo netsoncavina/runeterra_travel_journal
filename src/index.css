@@ -115,3 +115,18 @@ p {
   line-height: 150%;
   max-width: 90%;
 }
+
+.languages--selector {
+  display: flex;
+  flex-direction: row;
+  margin-left: 1200px;
+}
+
+#lang {
+  cursor: pointer;
+}
+
+.flag {
+  width: 20px;
+  margin-right: 5px;
+}
