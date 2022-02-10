@@ -1,12 +1,14 @@
 import Champion from "./Champion";
 import info from "../data";
 import React from "react";
+import { useState } from "react";
 import Tippy from "@tippyjs/react";
 import "tippy.js/dist/tippy.css";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
 
 export default function Card(props) {
+  const [description, setDescription] = useState(props.description[2]);
   let championsList = props.champions;
   let champions = props.champions
     ? Object.keys(championsList).map((key) => {
@@ -24,6 +26,16 @@ export default function Card(props) {
         );
       })
     : null;
+
+  function changeLanguage() {
+    if (description == props.description[0]) {
+      setDescription(props.description[1]);
+    } else if (description == props.description[1]) {
+      setDescription(props.description[2]);
+    } else if (description == props.description[2]) {
+      setDescription(props.description[0]);
+    }
+  }
 
   return (
     <div>
@@ -62,17 +74,13 @@ export default function Card(props) {
                 <span className="card--type">{props.type}</span>{" "}
               </p>
             )}
-            <p>{props.description}</p>
-            {/* <Tippy
-              hideOnClick={false}
-              interactive={true}
-              content={
-                <section className="card--champions">{champions}</section>
-              }
-            >
-              <h6 className="card--champions--h5">Champions List</h6>
-            </Tippy> */}
+            <p>{description}</p>
+
             <section className="card--champions">{champions}</section>
+            <button className="card--button" onClick={changeLanguage}>
+              {" "}
+              button{" "}
+            </button>
           </div>
         </div>
       </div>
