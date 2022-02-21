@@ -1,15 +1,37 @@
-import logo from "./logo.svg";
 import "./App.css";
 import Navbar from "./components/Navbar";
 import Card from "./components/Card";
-import Champion from "./components/Champion";
 import info from "./data";
-import test from "./test";
 import { useState } from "react";
 import Flags from "country-flag-icons/react/3x2";
 
+async function getSkin(champion) {
+  const data = await fetch(
+    `http://ddragon.leagueoflegends.com/cdn/12.4.1/data/en_US/champion/${champion}.json`
+  );
+  const json = await data.json();
+  const skins = await json["data"][champion]["skins"];
+  const championSkins = Object.keys(skins).map((item) => {
+    console.log(skins[item]["name"]);
+  });
+
+  return championSkins;
+}
+
+function getSkins(champion) {
+  let name = champion;
+  const data = fetch(
+    `http://ddragon.leagueoflegends.com/cdn/12.4.1/data/en_US/champion/${name}.json`
+  )
+    .then((response) => response.json())
+    .then((json) => {
+      console.log(json["data"]["title"]);
+    });
+}
+
 function App() {
-  // test();
+  const skins = getSkins("Draven");
+
   const [language, setLanguage] = useState(2);
   const [flag, setFlag] = useState(
     <Flags.BR title="Brasil" className="flag" />
@@ -31,19 +53,20 @@ function App() {
     }
   }
   const cards = info.map((item) => {
-    console.log(item);
     return <Card key={item.id} language={language} {...item} />;
   });
   return (
     <>
       <Navbar />
-      <div class="languages--selector">
+
+      <div className="languages--selector">
         {flag}
 
         <span id="lang" onClick={changeLanguage}>
           Português
         </span>
       </div>
+      {skins}
       <section className="cards-list">{cards}</section>
     </>
   );

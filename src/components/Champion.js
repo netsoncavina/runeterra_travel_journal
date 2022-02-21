@@ -3,6 +3,21 @@ import "tippy.js/dist/tippy.css";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
 import info from "../data";
+import { useState, useEffect } from "react";
+
+function fixName(champion) {
+  let name;
+  if (champion == "Jarvan IV") {
+    name = "JarvanIV";
+  } else if (champion == "Renata Glasc") {
+    name = "Renata";
+  } else if (champion == "Wukong") {
+    name = "MonkeyKing";
+  } else {
+    name = champion;
+  }
+  return name;
+}
 
 function getImage(champion) {
   if (champion == "Jarvan IV") {
@@ -17,26 +32,41 @@ function getImage(champion) {
 }
 
 export default function Champion(props) {
+  const [skins, setSkins] = useState([]);
+  const [title, setTitle] = useState("");
+
+  useEffect(async () => {
+    let name = fixName(props.name);
+    fetch(
+      `http://ddragon.leagueoflegends.com/cdn/12.4.1/data/en_US/champion/${name}.json`
+    )
+      .then((response) => response.json())
+      .then((json) => {
+        setSkins(json["data"][name]["skins"]);
+        setTitle(json["data"][name]["title"]);
+      }, []);
+  });
+
   const srcUrl = getImage(props.name);
-  const splashUrl = `images/splash/${props.name}_0.jpg`;
-  const skins = props.skins;
-  const championSkins = props.skins ? (
-    Object.keys(skins).map((item) => {
-      return (
-        <div>
-          <img src={skins[item].splashUrl} />
-          <p>{skins[item].description}</p>
-        </div>
-      );
-    })
-  ) : (
-    <div>
-      <img src={splashUrl} />
-      <p>
-        {props.name} : {props.nick}
-      </p>
-    </div>
-  );
+
+  const championSkins = Object.keys(skins).map((item) => {
+    let name = fixName(props.name);
+    return (
+      <div>
+        <img
+          src={`http://ddragon.leagueoflegends.com/cdn/img/champion/splash/${name}_${skins[item]["num"]}.jpg`}
+        />
+        {item == 0 ? (
+          <p>
+            {props.name} {title}
+          </p>
+        ) : (
+          <p>{skins[item]["name"]}</p>
+        )}
+      </div>
+    );
+  });
+
   return (
     <div className="card--champion--list">
       <Tippy
@@ -53,14 +83,11 @@ export default function Champion(props) {
             >
               {championSkins}
             </Carousel>
-
-            {/* //<img className="card--champion--splash" src={splashUrl} /> */}
           </>
         }
       >
         <img className="card--champion--icon" src={srcUrl} />
       </Tippy>
-      {/* <h5>{props.name}</h5> */}
     </div>
   );
 }
