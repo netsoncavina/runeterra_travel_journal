@@ -9,6 +9,7 @@ import { Carousel } from "react-responsive-carousel";
 
 export default function Card(props) {
   // const [description, setDescription] = useState(props.description[2]);
+  console.log(props.language);
   let championsList = props.champions;
   let champions = props.champions
     ? Object.keys(championsList).map((key) => {
