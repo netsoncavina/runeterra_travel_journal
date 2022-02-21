@@ -6,6 +6,7 @@ import { useState } from "react";
 import Flags from "country-flag-icons/react/3x2";
 
 function App() {
+  const [languageCode, setLanguageCode] = useState("en_US");
   const [language, setLanguage] = useState(2);
   const [flag, setFlag] = useState(
     <Flags.BR title="Brasil" className="flag" />
@@ -14,20 +15,30 @@ function App() {
     let id = document.getElementById("lang");
     if (language === 0) {
       setLanguage(1);
+      setLanguageCode("de_DE");
       id.innerHTML = "Deutsch";
       setFlag(<Flags.DE title="Deutschland" className="flag" />);
     } else if (language == 1) {
       setLanguage(2);
+      setLanguageCode("pt_BR");
       id.innerHTML = "Português";
       setFlag(<Flags.BR title="Brasil" className="flag" />);
     } else {
       setLanguage(0);
+      setLanguageCode("en_US");
       id.innerHTML = "English";
       setFlag(<Flags.GB title="United Kingdom" className="flag" />);
     }
   }
   const cards = info.map((item) => {
-    return <Card key={item.id} language={language} {...item} />;
+    return (
+      <Card
+        key={item.id}
+        language={language}
+        languageCode={languageCode}
+        {...item}
+      />
+    );
   });
   return (
     <>

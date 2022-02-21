@@ -8,12 +8,17 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
 
 export default function Card(props) {
-  // const [description, setDescription] = useState(props.description[2]);
-  console.log(props.language);
+  console.log(props.languageCode);
   let championsList = props.champions;
   let champions = props.champions
     ? Object.keys(championsList).map((key) => {
-        return <Champion key={key} {...championsList[key]} />;
+        return (
+          <Champion
+            key={key}
+            language={props.languageCode}
+            {...championsList[key]}
+          />
+        );
       })
     : null;
   const wallpapersList = props.wallpapers;

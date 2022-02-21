@@ -38,7 +38,7 @@ export default function Champion(props) {
   useEffect(async () => {
     let name = fixName(props.name);
     fetch(
-      `http://ddragon.leagueoflegends.com/cdn/12.4.1/data/en_US/champion/${name}.json`
+      `http://ddragon.leagueoflegends.com/cdn/12.4.1/data/${props.language}/champion/${name}.json`
     )
       .then((response) => response.json())
       .then((json) => {
