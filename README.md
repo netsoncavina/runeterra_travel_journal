@@ -10,8 +10,8 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 - [x] Exibir simbolo de cada região
 - [x] Exibir campeões da região
 - [x] Exibir skins dos campeões
-- [ ] Exibir mais imagens da região
-- [ ] Opção de escolher o idioma do texto
+- [x] Exibir mais imagens da região
+- [x] Opção de escolher o idioma do texto
 
 ## 💻 Pré-requisitos
 
