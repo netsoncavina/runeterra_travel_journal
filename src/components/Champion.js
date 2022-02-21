@@ -4,8 +4,20 @@ import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a lo
 import { Carousel } from "react-responsive-carousel";
 import info from "../data";
 
+function getImage(champion) {
+  if (champion == "Jarvan IV") {
+    return `http://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/JarvanIV.png`;
+  } else if (champion == "Renata Glasc") {
+    return `http://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Renata.png`;
+  } else if (champion == "Wukong") {
+    return `http://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/MonkeyKing.png`;
+  } else {
+    return `http://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/${champion}.png`;
+  }
+}
+
 export default function Champion(props) {
-  const srcUrl = `images/champion/${props.name}.png`;
+  const srcUrl = getImage(props.name);
   const splashUrl = `images/splash/${props.name}_0.jpg`;
   const skins = props.skins;
   const championSkins = props.skins ? (

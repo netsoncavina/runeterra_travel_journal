@@ -640,7 +640,7 @@ export default [
       1: { name: "Kaisa" },
       2: { name: "Kassadin" },
       3: { name: "Khazix" },
-      4: { name: "Kogmaw" },
+      4: { name: "KogMaw" },
       5: { name: "Malzahar" },
       6: { name: "RekSai" },
       7: { name: "Velkoz" },
