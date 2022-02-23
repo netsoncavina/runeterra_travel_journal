@@ -45,13 +45,15 @@ function App() {
   return (
     <>
       <Navbar />
-      <div className="languages--selector">
-        {flag}
+      <Row>
+        <div className="languages--selector">
+          {flag}
 
-        <span id="lang" onClick={changeLanguage}>
-          Português
-        </span>
-      </div>
+          <span id="lang" onClick={changeLanguage}>
+            Português
+          </span>
+        </div>
+      </Row>
 
       <section className="cards-list">{cards}</section>
     </>

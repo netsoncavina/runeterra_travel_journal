@@ -28,13 +28,10 @@ nav {
 
 .logo {
   padding-top: 5px;
-  /* width: 28px;
-  height: 25px; */
 }
 
 .card {
   display: flex;
-  /* margin-top: 40px; */
   padding-top: 20px;
   padding-left: 39px;
 }
@@ -82,8 +79,7 @@ nav {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  /* width: fit-content; */
-  /* background-color: #333; */
+
   height: 80px;
 }
 
@@ -120,7 +116,7 @@ p {
 .languages--selector {
   display: flex;
   flex-direction: row;
-  margin-left: 1200px;
+  margin-left: 70%;
 }
 
 #lang {
