@@ -116,7 +116,7 @@ p {
 .languages--selector {
   display: flex;
   flex-direction: row;
-  margin-left: 70%;
+  padding-left: 2%;
 }
 
 #lang {
