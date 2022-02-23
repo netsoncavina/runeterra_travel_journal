@@ -8,7 +8,7 @@ import Row from "react-bootstrap/Row";
 // import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
-  const [languageCode, setLanguageCode] = useState("en_US");
+  const [languageCode, setLanguageCode] = useState("pt_BR");
   const [language, setLanguage] = useState(2);
   const [flag, setFlag] = useState(
     <Flags.BR title="Brasil" className="flag" />
