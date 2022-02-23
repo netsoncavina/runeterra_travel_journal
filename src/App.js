@@ -4,6 +4,8 @@ import Card from "./components/Card";
 import info from "./data";
 import { useState } from "react";
 import Flags from "country-flag-icons/react/3x2";
+import Row from "react-bootstrap/Row";
+// import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   const [languageCode, setLanguageCode] = useState("en_US");
@@ -43,7 +45,6 @@ function App() {
   return (
     <>
       <Navbar />
-
       <div className="languages--selector">
         {flag}
 
@@ -51,6 +52,7 @@ function App() {
           Português
         </span>
       </div>
+
       <section className="cards-list">{cards}</section>
     </>
   );
