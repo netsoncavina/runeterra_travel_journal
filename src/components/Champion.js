@@ -21,13 +21,13 @@ function fixName(champion) {
 
 function getImage(champion) {
   if (champion == "Jarvan IV") {
-    return `http://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/JarvanIV.png`;
+    return `https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/JarvanIV.png`;
   } else if (champion == "Renata Glasc") {
-    return `http://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Renata.png`;
+    return `https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Renata.png`;
   } else if (champion == "Wukong") {
-    return `http://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/MonkeyKing.png`;
+    return `https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/MonkeyKing.png`;
   } else {
-    return `http://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/${champion}.png`;
+    return `https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/${champion}.png`;
   }
 }
 
@@ -38,7 +38,7 @@ export default function Champion(props) {
   useEffect(async () => {
     let name = fixName(props.name);
     fetch(
-      `http://ddragon.leagueoflegends.com/cdn/12.4.1/data/${props.language}/champion/${name}.json`
+      `https://ddragon.leagueoflegends.com/cdn/12.4.1/data/${props.language}/champion/${name}.json`
     )
       .then((response) => response.json())
       .then((json) => {
@@ -54,7 +54,7 @@ export default function Champion(props) {
     return (
       <div>
         <img
-          src={`http://ddragon.leagueoflegends.com/cdn/img/champion/splash/${name}_${skins[item]["num"]}.jpg`}
+          src={`https://ddragon.leagueoflegends.com/cdn/img/champion/splash/${name}_${skins[item]["num"]}.jpg`}
         />
         {item == 0 ? (
           <p>

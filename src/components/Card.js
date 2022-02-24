@@ -77,7 +77,6 @@ export default function Card(props) {
                   className="crest"
                 />
               </Figure>
-              {/* <img className="card--icon" src={props.iconUrl}></img> */}
               <h5 className="card--h5">{props.location}</h5>
             </div>
             <h2>{props.title}</h2>
