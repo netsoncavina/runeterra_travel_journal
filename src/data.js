@@ -28,232 +28,27 @@ export default [
     champions: {
       0: {
         name: "Draven",
-        skins: {
-          0: {
-            splashUrl: "images/splash/Draven_0.jpg",
-            description: "Draven The glorious executioner",
-          },
-          1: {
-            splashUrl: "images/splash/Draven_1.jpg",
-            description: "Soul Reaver Draven",
-          },
-          2: {
-            splashUrl: "images/splash/Draven_2.jpg",
-            description: "Gladiator Draven",
-          },
-          3: {
-            splashUrl: "images/splash/Draven_3.jpg",
-            description: "Primetime Draven",
-          },
-          4: {
-            splashUrl: "images/splash/Draven_4.jpg",
-            description: "Pool Party Draven",
-          },
-          5: {
-            splashUrl: "images/splash/Draven_5.jpg",
-            description: "Beast Hunter Draven",
-          },
-          6: {
-            splashUrl: "images/splash/Draven_6.jpg",
-            description: "Draven Draven",
-          },
-          7: {
-            splashUrl: "images/splash/Draven_7.jpg",
-            description: "Santa Draven",
-          },
-          8: {
-            splashUrl: "images/splash/Draven_8.jpg",
-            description: "Mecha Kingdoms Draven",
-          },
-          9: {
-            splashUrl: "images/splash/Draven_9.jpg",
-            description: "Ruined Draven",
-          },
-          10: {
-            splashUrl: "images/splash/Draven_10.jpg",
-            description: "Debonair Draven",
-          },
-        },
       },
       1: {
         name: "Darius",
-        skins: {
-          0: {
-            splashUrl: "images/splash/Darius_0.jpg",
-            description: "Darius The Hand of Noxus",
-          },
-          1: {
-            splashUrl: "images/splash/Darius_1.jpg",
-            description: "Lord Darius",
-          },
-          2: {
-            splashUrl: "images/splash/Darius_2.jpg",
-            description: "Bioforge Darius",
-          },
-          3: {
-            splashUrl: "images/splash/Darius_3.jpg",
-            description: "Woad King Darius",
-          },
-          4: {
-            splashUrl: "images/splash/Darius_4.jpg",
-            description: "Dunkmaster Darius",
-          },
-          5: {
-            splashUrl: "images/splash/Darius_8.jpg",
-            description: "Academy Darius",
-          },
-          6: {
-            splashUrl: "images/splash/Darius_14.jpg",
-            description: "Dreadnova Darius",
-          },
-          7: {
-            splashUrl: "images/splash/Darius_15.jpg",
-            description: "God King Darius",
-          },
-          8: {
-            splashUrl: "images/splash/Darius_16.jpg",
-            description: "High Noon Darius",
-          },
-          9: {
-            splashUrl: "images/splash/Darius_24.jpg",
-            description: "Lunar Beast Darius",
-          },
-          10: {
-            splashUrl: "images/splash/Darius_33.jpg",
-            description: "Crime City Nightmare Darius",
-          },
-        },
       },
       2: {
         name: "Cassiopeia",
-        nick: "The Serpent's Embrace",
-        skins: {
-          0: {
-            splashUrl: "images/splash/Cassiopeia_0.jpg",
-            description: "Cassiopeia The Serpent's Embrace",
-          },
-          1: {
-            splashUrl: "images/splash/Cassiopeia_1.jpg",
-            description: "Desperada Cassiopeia",
-          },
-          2: {
-            splashUrl: "images/splash/Cassiopeia_2.jpg",
-            description: "Siren Cassiopeia",
-          },
-          3: {
-            splashUrl: "images/splash/Cassiopeia_3.jpg",
-            description: "Mythic Cassiopeia",
-          },
-          4: {
-            splashUrl: "images/splash/Cassiopeia_4.jpg",
-            description: "Jade Fang Cassiopeia",
-          },
-          5: {
-            splashUrl: "images/splash/Cassiopeia_8.jpg",
-            description: "Eternum Cassiopeia",
-          },
-          6: {
-            splashUrl: "images/splash/Cassiopeia_9.jpg",
-            description: "Spirit Blossom Cassiopeia",
-          },
-          7: {
-            splashUrl: "images/splash/Cassiopeia_18.jpg",
-            description: "Coven Cassiopeia",
-          },
-        },
       },
       3: {
         name: "Katarina",
-        nick: "The Sinister Blade",
-        skins: {
-          0: {
-            splashUrl: "images/splash/Katarina_0.jpg",
-            description: "Katarina The Sinister Blade",
-          },
-          1: {
-            splashUrl: "images/splash/Katarina_1.jpg",
-            description: "Mercenary Katarina",
-          },
-          2: {
-            splashUrl: "images/splash/Katarina_2.jpg",
-            description: "Red Card Katarina",
-          },
-          3: {
-            splashUrl: "images/splash/Katarina_3.jpg",
-            description: "Bilgewater Katarina",
-          },
-          4: {
-            splashUrl: "images/splash/Katarina_4.jpg",
-            description: "Kitty Cat Katarina",
-          },
-          5: {
-            splashUrl: "images/splash/Katarina_5.jpg",
-            description: "High Command Katarina",
-          },
-          6: {
-            splashUrl: "images/splash/Katarina_6.jpg",
-            description: "Sandstorm Katarina",
-          },
-          7: {
-            splashUrl: "images/splash/Katarina_7.jpg",
-            description: "Slay Belle Katarina",
-          },
-          8: {
-            splashUrl: "images/splash/Katarina_8.jpg",
-            description: "Warring Kingdoms Katarina",
-          },
-          9: {
-            splashUrl: "images/splash/Katarina_9.jpg",
-            description: "PROJECT: Katarina",
-          },
-          10: {
-            splashUrl: "images/splash/Katarina_10.jpg",
-            description: "Death Sworn Katarina",
-          },
-          11: {
-            splashUrl: "images/splash/Katarina_12.jpg",
-            description: "Battle Academia Katarina",
-          },
-          12: {
-            splashUrl: "images/splash/Katarina_21.jpg",
-            description: "Blood Moon Katarina",
-          },
-          13: {
-            splashUrl: "images/splash/Katarina_29.jpg",
-            description: "Battle Queen Katarina",
-          },
-        },
       },
       4: {
         name: "Kled",
-        nick: "The Cantankerous Cavalier",
-        skins: {
-          0: {
-            splashUrl: "images/splash/Kled_0.jpg",
-            description: "Kled The Cantankerous Cavalier",
-          },
-          1: {
-            splashUrl: "images/splash/Kled_1.jpg",
-            description: "Sir Kled",
-          },
-          2: {
-            splashUrl: "images/splash/Kled_2.jpg",
-            description: "Count Kledula",
-          },
-          3: {
-            splashUrl: "images/splash/Kled_9.jpg",
-            description: "Marauder Kled",
-          },
-        },
       },
-      5: { name: "Leblanc", nick: "The Deceiver" },
-      6: { name: "Rell", nick: "The Iron Maiden" },
-      7: { name: "Riven", nick: "The Exile" },
-      8: { name: "Samira", nick: "The Desert rose" },
-      9: { name: "Sion", nick: "The Undead Juggernaut" },
-      10: { name: "Swain", nick: "The Noxian Grand General" },
-      11: { name: "Talon", nick: "The Blade's Shadow" },
-      12: { name: "Vladimir", nick: "The Crimson Reaper" },
+      5: { name: "Leblanc" },
+      6: { name: "Rell" },
+      7: { name: "Riven" },
+      8: { name: "Samira" },
+      9: { name: "Sion" },
+      10: { name: "Swain" },
+      11: { name: "Talon" },
+      12: { name: "Vladimir" },
     },
   },
   {
