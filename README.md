@@ -1,5 +1,5 @@
 # Runeterra Travel Journal
-<img src="https://user-images.githubusercontent.com/1374081/153341656-bb2425c1-451f-49ba-b781-27b03c780ffe.png" width="90%"></img> <img src="https://user-images.githubusercontent.com/1374081/153341727-cae4541b-66c4-4be7-b919-a32a79f44922.png" width="90%"></img> <img src="https://user-images.githubusercontent.com/1374081/153341752-2d570fe7-54be-4a6d-844a-dcc8a7d40527.png" width="90%"></img>  
+<img src="https://user-images.githubusercontent.com/1374081/155813268-b8f6ee89-7640-4bed-8ebf-03181a2f5666.png" width="90%"></img> <img src="https://user-images.githubusercontent.com/1374081/155813328-398474f7-5846-4817-9895-abfd1551d6dc.png" width="90%"></img> <img src="https://user-images.githubusercontent.com/1374081/155813346-2e6652c7-f0cf-4f52-a00f-6ff2029a9b30.png" width="90%"></img> 
 
 > React app feito para exibir informações sobre as regiões de Runeterra 
 
