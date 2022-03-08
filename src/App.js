@@ -5,7 +5,7 @@ import info from "./data";
 import { useState } from "react";
 import Flags from "country-flag-icons/react/3x2";
 import Row from "react-bootstrap/Row";
-// import "bootstrap/dist/css/bootstrap.min.css";
+import axios from "axios";
 
 function App() {
   const [languageCode, setLanguageCode] = useState("pt_BR");
@@ -13,6 +13,7 @@ function App() {
   const [flag, setFlag] = useState(
     <Flags.BR title="Brasil" className="flag" />
   );
+
   function changeLanguage() {
     let id = document.getElementById("lang");
     if (language === 0) {

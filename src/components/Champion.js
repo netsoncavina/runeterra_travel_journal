@@ -4,6 +4,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a lo
 import { Carousel } from "react-responsive-carousel";
 import info from "../data";
 import { useState, useEffect } from "react";
+import Axios from "axios";
 
 function fixName(champion) {
   let name;
@@ -68,6 +69,7 @@ export default function Champion(props) {
   });
 
   return (
+    // getChampionData(),
     <div className="card--champion--list">
       <Tippy
         interactive={true}
