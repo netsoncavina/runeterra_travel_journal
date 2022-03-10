@@ -12,6 +12,7 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 - [x] Exibir skins dos campeões
 - [x] Exibir mais imagens da região
 - [x] Opção de escolher o idioma do texto
+- [ ] Melhorar a responsividade
 
 ## 💻 Pré-requisitos
 
